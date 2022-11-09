@@ -1,13 +1,20 @@
+/* 순서도 매우 중요!! */
 @import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
 @import "reset.css";
 @import "variables.css";
 
 /* components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color: #323232;
   font-family: "Poor Story", cursive;
+  height: 1000vh;
 }
