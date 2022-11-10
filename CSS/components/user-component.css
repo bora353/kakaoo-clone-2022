@@ -22,10 +22,10 @@
   font-weight: 600;
 }
 
-.user-compnent__subtitle {
-  font: size 17px;
+.user-component__subtitle {
+  font: size 20px;
   color: rgba(0, 0, 0, 0.5);
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .user-component__avatar-lg {
