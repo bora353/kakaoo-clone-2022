@@ -24,8 +24,8 @@
 
 .user-compnent__subtitle {
   font: size 17px;
-  color: rgba(0, 0, 0, 0.6);
-  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
 }
 
 .user-component__avatar-lg {
@@ -43,6 +43,18 @@
   font-weight: 100;
 }
 
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: flex;
+}
+
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
