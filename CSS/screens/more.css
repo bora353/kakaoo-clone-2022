@@ -39,4 +39,9 @@
 .more-suggestions__icon-image > img {
   width: 60px;
   height: 60px;
+  border-radius: 10px;
+}
+
+.more-suggestions__icon-image {
+  margin-bottom: 5px;
 }
